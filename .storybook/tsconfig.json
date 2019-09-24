@@ -1,0 +1,9 @@
+{
+    "extends": "..",
+    "compilerOptions": {
+        "baseUrl": "../src/",
+        "rootDir": "..",
+        "types": ["node"]
+    },
+    "include": ["./", "../src/", "../stories/"]
+}

@@ -1,0 +1,43 @@
+{
+    "private": true,
+    "scripts": {
+        "format": "prettier --write '**/*.ts' '**/*.tsx' '**/*.json' '!**/*.d.ts' '!{.,**}/{.direnv,.idea,node_modules,.git,dist}/**'",
+        "build": "build-storybook -o .storybook/dist",
+        "view": "start-storybook"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.4.5",
+        "@storybook/addon-actions": "^5.2.1",
+        "@storybook/addon-info": "^5.2.1",
+        "@storybook/addon-knobs": "^5.2.1",
+        "@storybook/addon-notes": "^5.2.1",
+        "@storybook/addons": "^5.2.1",
+        "@storybook/react": "^5.2.1",
+        "@storybook/theming": "^5.2.1",
+        "@types/node": "^12.6.1",
+        "@types/react": "^16.8.23",
+        "@types/storybook__addon-info": "^4.1.2",
+        "@types/storybook__addon-knobs": "^5.0.4",
+        "@types/storybook__react": "^4.0.2",
+        "@types/styled-components": "^4.1.16",
+        "babel-loader": "^8.0.6",
+        "prettier": "^1.18.2",
+        "react": "^16.8.6",
+        "react-docgen-typescript-loader": "^3.1.0",
+        "react-dom": "^16.8.6",
+        "ts-loader": "^6.0.4",
+        "ts-node": "^8.3.0",
+        "tsconfig-paths-webpack-plugin": "^3.2.0",
+        "ttypescript": "^1.5.7",
+        "typescript": "^3.5.2",
+        "typescript-plugin-styled-components": "^1.4.3",
+        "typescript-transform-paths": "^1.1.5",
+        "webpack": "^4.35.2"
+    },
+    "prettier": {
+        "semi": false,
+        "printWidth": 79,
+        "tabWidth": 4,
+        "trailingComma": "all"
+    }
+}

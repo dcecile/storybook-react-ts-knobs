@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "baseUrl": "src/",
+        "declaration": true,
+        "declarationMap": true,
+        "esModuleInterop": true,
+        "jsx": "react",
+        "lib": ["dom", "esnext"],
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "outDir": "./dist",
+        "paths": {
+            "@custom-org/custom-lib/*": ["*"]
+        },
+        "plugins": [
+            {
+                "transform": "typescript-plugin-styled-components",
+                "type": "config"
+            },
+            { "transform": "typescript-transform-paths" }
+        ],
+        "rootDir": "./src",
+        "strict": true,
+        "target": "esnext",
+        "types": []
+    },
+    "include": ["src/", "src/ui/"],
+    "exclude": []
+}

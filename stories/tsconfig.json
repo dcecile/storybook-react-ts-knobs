@@ -1,0 +1,8 @@
+{
+    "extends": "..",
+    "compilerOptions": {
+        "baseUrl": "../src/",
+        "rootDir": ".."
+    },
+    "include": ["./", "../src/", "../src/ui/"]
+}
