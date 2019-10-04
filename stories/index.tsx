@@ -11,7 +11,7 @@ storiesOf("div", module)
     .add("button counter knob", () => {
         const [counter, setCounter] = useState(0)
         button("increment", () => setCounter(counter + 1))
-        button("decrement", () => setCounter(counter + 1))
+        button("decrement", () => setCounter(counter - 1))
         return <div>{counter}</div>
     })
     .add("click increment", () => {
@@ -25,7 +25,7 @@ storiesOf("Display", module)
     .add("button counter knob", () => {
         const [counter, setCounter] = useState(0)
         button("increment", () => setCounter(counter + 1))
-        button("decrement", () => setCounter(counter + 1))
+        button("decrement", () => setCounter(counter - 1))
         return <Display value={counter} />
     })
     .add("click increment", () => {
